@@ -1,0 +1,8 @@
+LABEL PUPPYLINUXPRECISE
+MENU LABEL ^Puppy Linux - Precise 5.5
+KERNEL er/plugins/puppy/precise/vmlinuz
+INITRD er/plugins/puppy/precise/initrd.gz
+APPEND ramdisk_size=200000
+TEXT HELP
+                 Very small Live Linux.
+ENDTEXT

@@ -1,0 +1,8 @@
+LABEL PUPPYLINUXFATDOG
+MENU LABEL ^Puppy Linux - FatDog x64 5.2.1
+KERNEL er/plugins/puppy/fatdog/vmlinuz
+INITRD er/plugins/puppy/fatdog/initrd.gz
+APPEND ramdisk_size=200000
+TEXT HELP
+                 Very small Live Linux.
+ENDTEXT

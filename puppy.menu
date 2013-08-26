@@ -1,0 +1,19 @@
+MENU BEGIN PUPPYLINUX
+MENU LABEL ^Puppy Linux
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/puppy/puppy.png
+
+MENU INCLUDE er/plugins/puppy/arcade/puppymain.menu
+MENU INCLUDE er/plugins/puppy/fatdog/puppymain.menu
+MENU INCLUDE er/plugins/puppy/lucid/puppymain.menu
+MENU INCLUDE er/plugins/puppy/precise/puppymain.menu
+MENU INCLUDE er/plugins/puppy/quirky/puppymain.menu
+MENU INCLUDE er/plugins/puppy/slacko/puppymain.menu
+MENU INCLUDE er/plugins/puppy/wary/puppymain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

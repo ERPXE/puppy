@@ -1,0 +1,8 @@
+LABEL PUPPYLINUXARCADE
+MENU LABEL ^Puppy Linux - Arcade 10
+KERNEL er/plugins/puppy/arcade/vmlinuz
+INITRD er/plugins/puppy/arcade/initrd.gz
+APPEND ramdisk_size=200000
+TEXT HELP
+                 Very small Linux Packed With Games.
+ENDTEXT

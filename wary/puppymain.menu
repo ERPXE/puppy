@@ -1,0 +1,8 @@
+LABEL PUPPYLINUXWARY
+MENU LABEL ^Puppy Linux - Wary 5.2.2
+KERNEL er/plugins/puppy/wary/vmlinuz
+INITRD er/plugins/puppy/wary/initrd.gz 
+APPEND ramdisk_size=200000
+TEXT HELP
+                 Very small Live Linux.
+ENDTEXT

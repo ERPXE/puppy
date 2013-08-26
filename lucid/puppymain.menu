@@ -1,0 +1,8 @@
+LABEL PUPPYLINUXLUCID
+MENU LABEL ^Puppy Linux - Lucid 5.2.8
+KERNEL er/plugins/puppy/lucid/vmlinuz
+INITRD er/plugins/puppy/lucid/initrd.gz
+APPEND ramdisk_size=200000
+TEXT HELP
+                 Very small Live Linux.
+ENDTEXT
