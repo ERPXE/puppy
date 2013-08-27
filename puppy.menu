@@ -1,7 +1,6 @@
 MENU BEGIN PUPPYLINUX
+MENU TITLE Puppy Linux
 MENU LABEL ^Puppy Linux
-# ------====> Include Menu Settings <====------
-MENU INCLUDE er/menuinc/header.module
 
 # ------====> Set Specific Page Settings <====------
 MENU BACKGROUND er/plugins/puppy/puppy.png
